@@ -24,7 +24,12 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           <h2 className="shrink-0 mr-4 text-2xl font-bold tracking-tight md:tracking-tighter leading-tight">
             <Link href="/" className="block hover:underline" aria-label="Future-Fit World">
-              Future-Fit World
+              <div className="flex items-center">
+                <div className="flexItem">
+                  <img src="/assets/ffworld.png" alt="Future-Fit World" width="50" height="50" />
+                </div>
+                <div className="flexItem pl-2">Future-Fit World</div>
+              </div>
             </Link>
           </h2>
           <ul className="flex grow justify-end flex-wrap items-center">
