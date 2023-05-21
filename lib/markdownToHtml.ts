@@ -50,7 +50,7 @@ export function getMDExcerpt(markdown: string, length: number = 500) {
 
 export function createNoteNode(title: string, content: string) {
   const mdContentStr = getMDExcerpt(content);
-  const htmlStr = renderToStaticMarkup(NotePreview({ title, content: mdContentStr }))
+  const htmlStr = ""; //GEO renderToStaticMarkup(NotePreview({ title, content: mdContentStr }))
   const noteNode = fromHtml(htmlStr);
   return noteNode;
 }
