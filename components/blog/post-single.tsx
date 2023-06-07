@@ -26,13 +26,13 @@ function PostSingle({
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+        <div className="pt-24 pb-12 md:pt-32 md:pb-20">
           <div className="max-w-3xl mx-auto lg:max-w-none">
 
-            <article>
+            <article className="px-8">
 
               {/* Article header */}
-              <header className="max-w-3xl mx-auto mb-20">
+              <header className="max-w-3xl mx-auto mb-12 md:mb-20">
                 {/* Title */}
 								{(title != 'Welcome') && (
 	                <>
