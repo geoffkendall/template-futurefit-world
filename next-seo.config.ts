@@ -1,16 +1,16 @@
 import { DefaultSeoProps } from "next-seo"
 
-const description = "Making the world fit for the future — for all life on Earth."
+const description = "Equipping young people with the mindset and means to thrive in the world of today and shape the world of tomorrow."
 // See https://www.npmjs.com/package/next-seo for more options
 const config: DefaultSeoProps = {
-  titleTemplate: "%s | Future-Fit World",
-  defaultTitle: "Future-Fit World",
+  titleTemplate: "%s | FutureFit.World",
+  defaultTitle: "FutureFit.World",
   description,
 
   openGraph: {
     type: "website",
     locale: "en_IE",
-    title: "Future-Fit World",
+    title: "FutureFit.World",
     description,
   },
   additionalLinkTags: [

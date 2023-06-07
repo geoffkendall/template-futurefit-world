@@ -23,12 +23,11 @@ const Header = () => {
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           <h2 className="shrink-0 mr-4 text-2xl font-bold tracking-tight md:tracking-tighter leading-tight">
-            <Link href="/" className="block hover:underline" aria-label="Future-Fit World">
+            <Link href="/" className="block hover:underline" aria-label="FutureFit.World">
               <div className="flex items-center">
                 <div className="flexItem">
-                  <img src="/assets/ffworld.png" alt="Future-Fit World" width="50" height="50" />
+                  <img src="/assets/ffworld-text.png" alt="FutureFit.World" className="w-240"/>
                 </div>
-                <div className="flexItem pl-2">Future-Fit World</div>
               </div>
             </Link>
           </h2>
