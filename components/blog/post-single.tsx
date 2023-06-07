@@ -58,6 +58,8 @@ function PostSingle({
                 </div>
 
                 {/* Sidebar */}
+								{(title != 'Welcome') && (
+								<>
                 <hr className="my-10 border border-dashed lg:block"/>
                 <aside className="relative lg:block lg:w-72 lg:ml-20 shrink-0">
                   <div>
@@ -71,6 +73,8 @@ function PostSingle({
                     </div>
                   </div>
                 </aside>
+								</>
+								)}
 
               </div>
 
